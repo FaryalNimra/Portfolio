@@ -1,0 +1,40 @@
+.education-section {
+  width: 100%;
+  padding: 60px 20px;
+  background-size: 400% 400%;
+  animation: bgShift 15s ease infinite;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@keyframes bgShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #c084fc;
+  text-shadow: 0 0 10px #ff7e5f, 0 0 15px #00ffcc;
+}
+
+.education-paragraph {
+  max-width: 700px;
+  font-size: 1.2rem;
+  color: #86efac;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 0 10px;
+}

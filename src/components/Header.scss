@@ -1,0 +1,38 @@
+// components/Header.scss
+
+.header {
+  background-color: #000;  // black background
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;   // center horizontally
+  align-items: center;
+  gap: 40px;  // space between logo and nav
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo {
+  color: orange;
+  font-weight: 700;
+  font-size: 1.8rem;
+  flex-shrink: 0;  // prevent shrinking
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-link {
+  color: orange;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #fff;  // white on hover
+  }
+}

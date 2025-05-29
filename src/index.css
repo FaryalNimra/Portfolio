@@ -1,0 +1,7 @@
+body {
+  margin: 0; /* optional, to remove default margin */
+  min-height: 100vh; /* ensure full viewport height */
+  background: linear-gradient(135deg, #0f0c29, #302b63);
+  font-family: 'Poppins', sans-serif; /* optional */
+  color: #fff; /* optional, for readable text */
+}
